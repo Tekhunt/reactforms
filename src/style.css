@@ -5,7 +5,10 @@
     text-decoration: none;
     list-style: none;
 }
-
+/* .cap1, .cap1:hover, .cap1:focus, .cap1:active, .cap1:visited{
+    text-decoration: none;
+    color: inherit;
+} */
 @media only screen and (min-width: 900px) {
     .inner-container{
         display: flex;
@@ -201,9 +204,9 @@ h1{
     padding-top: 15px;
 }
 
-.cap1{
+/* .cap1{
     border-bottom: 3px solid red;
-}
+} */
 
 .cap2:active{
     border-bottom: 3px solid red;

@@ -6,7 +6,7 @@ import SignUpButton from './SignUpButton';
 function ForgotPassword(){
     return (
         <div>
-        <Caption left="Forgot Password"/>
+        <Caption left="Forgot Password" leftUrl="forgotpassword"/>
         <InputField label="Username"/>
         <SignUpButton action="Submit"/>
 

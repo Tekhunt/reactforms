@@ -7,11 +7,11 @@ import SignUpButton from './SignUpButton';
 function Login(){
     return (
     <div>
-        <Caption left="Sign in" right="Register" />
-        <InputField label="Email"/>
+        <Caption left="Sign in" leftUrl="login" right="Register" rightUrl="register" />
+        <InputField label="Username"/>
         <PasswordField label="Password"/>
         <SignUpButton action="Login"/>
-        <Caption left="Become a vendor" right="Forgot password" />
+        <Caption left="Become a vendor" leftUrl="vendor" right="Forgot password" rightUrl="forgotpassword" />
 
     </div>
     )
